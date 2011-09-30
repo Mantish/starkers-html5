@@ -8,5 +8,5 @@ Author URI: http://nathanstaines.com
 Tags: starkers, html5, naked, clean, basic
 */
 
-@import "css/reset.css";
+@import "css/normalize.css";
 @import "css/layout.css";

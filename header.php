@@ -9,7 +9,7 @@
  * @since Starkers HTML5 3.0
  */
 ?><!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html class="no-js" <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
@@ -32,7 +32,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
  
-<script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/modernizr-2.0.6.min.js"></script>
  
 <?php
     /* We add some JavaScript to pages with the comment form
